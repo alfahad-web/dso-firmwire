@@ -1,0 +1,20 @@
+{
+  "buttons": {
+    "f1": false,
+    "f2": false,
+    "f3": false,
+    "f4": false,
+    "Pause": false,
+    "Cursor": false,
+    "Toggle_ch": 3,
+    "Reset": false
+  },
+  "sliders": {
+    "slide_x_ch1": 0.0,
+    "zoom_x_ch1": 0.0,
+    "slide_x_ch2": 0.0,
+    "zoom_x_ch2": 0.0,
+    "slide_y_ch2": 0.0,
+    "zoom_y_ch2": 0.0
+  }
+}
