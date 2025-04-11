@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  dso-firmwire:
+    container_name: dso-firmwire
+    image: ubuntu-dev
+    volumes:
+      - ..:/workdir
+    working_dir: /workdir
+    network_mode: "host"
+    stdin_open: true
+    tty: true
+    command: /bin/bash
