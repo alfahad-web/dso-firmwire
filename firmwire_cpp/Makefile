@@ -1,24 +1,3 @@
-# CXX = g++
-# CXXFLAGS = -std=c++11 -I/usr/include/jsoncpp
-# LDFLAGS = -ljsoncpp
-
-# TARGET = json_reader
-# SRCS = json_reader.cpp
-# OBJS = $(SRCS:.cpp=.o)
-
-# all: $(TARGET)
-
-# $(TARGET): $(OBJS)
-# 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS) $(LDFLAGS)
-
-# %.o: %.cpp
-# 	$(CXX) $(CXXFLAGS) -c $< -o $@
-
-# clean:
-# 	rm -f $(TARGET) $(OBJS)
-
-# .PHONY: all clean
-
 # Compiler and flags
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra
@@ -28,7 +7,9 @@ LDFLAGS = -mwindows -lgdi32 -static
 TARGET = main.exe
 
 # Source files
-SRCS = main.cpp
+SRCS = main.cpp \
+       global/global.cpp \
+       ui_layers/0_background/bg.cpp
 
 # Default target
 all: $(TARGET)
