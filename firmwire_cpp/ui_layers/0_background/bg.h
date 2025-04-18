@@ -3,9 +3,7 @@
 
 #include "../../global/global.h"
 
-#define BG_COLOR 0x222425
-#define BG_LAYER 0
-
-void init_background();
+void init_bg();
+void continue_bg();
 
 #endif

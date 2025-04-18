@@ -2,7 +2,11 @@
 #include <vector>
 #include <queue>
 #include "ui_layers/0_background/bg.h"
+#include "ui_layers/1_graphing/graphing.h"
+#include "ui_layers/2_axis/axis.h"
+#include "ui_layers/3_axis_annotations/axis_annotations.h"
 #include "global/global.h"
+#include <thread>
 using namespace std;
 
 
@@ -66,14 +70,29 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     {
         init_display_buffer();
 
-        init_background();
-        // init_graphing();
-        // init_axis();
-        // init_axis_annotations();
+        init_bg();
+        init_graphing();
+        init_axis();
+        init_axis_annotations();
         // init_wave_reading();
         // init_annotations();
 
         synchronize_layers();
+    }
+
+    //start the parallel threads for every layer
+    {
+        std::thread backgroundThread(continue_bg);
+        backgroundThread.detach();
+
+        std::thread graphingThread(continue_graphing);
+        graphingThread.detach();
+
+        std::thread axisThread(continue_axis);
+        axisThread.detach();
+
+        std::thread axisAnnotationsThread(continue_axis_annotations);
+        axisAnnotationsThread.detach();
     }
 
     const char CLASS_NAME[] = "Sample Window Class";
