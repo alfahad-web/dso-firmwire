@@ -4,6 +4,7 @@
 #include <vector>
 #include <cmath>
 #include "../1_graphing/graphing.h"
+#include "../../graphics/graphics.h"
 using namespace std;
 
 #define M_PI 3.14159265358979323846
@@ -52,7 +53,7 @@ void update_wave_reading(WaveReading wave_reading) {
         }
         y_val_chA /= time_interval_per_pixel_chA;
         int y_pixel_height_chA = y_val_chA / voltage_interval_per_pixel_chA + mid_y_chA; // height from base for this pixel
-        print_dot(y_pixel_height_chA, x_effective, WAVE_READING_COLOR_CH_A, wave_reading.line_thickness);
+        print_dot(y_pixel_height_chA, x_effective, WAVE_READING_COLOR_CH_A, wave_reading.line_thickness, WAVE_READING_LAYER);
     }
     // Wave Reading for chB
     for (int x = 0; x < screen_width; x++) {
@@ -66,7 +67,7 @@ void update_wave_reading(WaveReading wave_reading) {
         }
         y_val_chB /= time_interval_per_pixel_chB;
         int y_pixel_height_chB = y_val_chB / voltage_interval_per_pixel_chB + mid_y_chB; // height from base for this pixel
-        print_dot(y_pixel_height_chB, x_effective, WAVE_READING_COLOR_CH_B, wave_reading.line_thickness);
+        print_dot(y_pixel_height_chB, x_effective, WAVE_READING_COLOR_CH_B, wave_reading.line_thickness, WAVE_READING_LAYER);
     }
 }
 

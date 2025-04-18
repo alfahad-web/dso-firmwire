@@ -6,7 +6,7 @@ void init_bg() {
         for (int x = 0; x < screen_width; x++) {
             int x_effective = x + global_x_offset;
             int y_effective = y + global_y_offset;
-            display_buffer[y_effective][x_effective][BG_LAYER] = BG_COLOR;
+            display_buffer[y_effective][x_effective][BG_LAYER] = SCREEN_BG_COLOR;
         }
     }
 }

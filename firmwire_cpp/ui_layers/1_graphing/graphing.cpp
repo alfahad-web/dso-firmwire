@@ -1,5 +1,6 @@
 #include "graphing.h"
 #include "../../global/global.h"
+#include "../../graphics/graphics.h"
 #include <stdlib.h>
 
 struct Graph {
@@ -7,16 +8,6 @@ struct Graph {
     int y_units;
     int line_width;
 };
-
-void print_dot(int x, int y, int color, int width) {
-    for(int i = -width / 2; i <= width / 2; i++) {
-        for(int j = -width / 2; j <= width / 2; j++) {
-            if (x + i >= 0 && x + i < HEIGHT && y + j >= 0 && y + j < WIDTH) {
-                display_buffer[x + i][y + j][GRAPHING_LAYER] = color;
-            }
-        }
-    }
-}
 
 void update_graph(Graph graph) {
     int mid_x = screen_width / 2 + global_x_offset;
@@ -32,9 +23,9 @@ void update_graph(Graph graph) {
             int y_effective = y + global_y_offset;
             int x_effective = x + global_x_offset;
             if(abs(y_effective - mid_y) % graph.x_units == 0 && abs(x_effective - mid_x) % interval_y == 0) {
-                print_dot(y_effective, x_effective, GRAPHING_COLOR, graph.line_width);
+                print_dot(y_effective, x_effective, GRAPHING_COLOR, graph.line_width, GRAPHING_LAYER);
             } else if(abs(x_effective - mid_x) % graph.y_units == 0 && abs(y_effective - mid_y) % interval_x == 0) {
-                print_dot(y_effective, x_effective, GRAPHING_COLOR, graph.line_width);
+                print_dot(y_effective, x_effective, GRAPHING_COLOR, graph.line_width, GRAPHING_LAYER);
             }
         }
     }

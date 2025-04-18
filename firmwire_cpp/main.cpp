@@ -6,6 +6,7 @@
 #include "ui_layers/2_axis/axis.h"
 #include "ui_layers/3_axis_annotations/axis_annotations.h"
 #include "ui_layers/4_wave_reading/wave_reading.h"
+#include "ui_layers/5_annotations/annotations.h"
 #include "global/global.h"
 #include <thread>
 using namespace std;
@@ -23,6 +24,9 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
             for (int y = 0; y < HEIGHT; y++) {
                 for (int x = 0; x < WIDTH; x++) {
                     int pixelValue = abs(display_buffer[y][x][5]);
+                    if(pixelValue == 0) {
+                        pixelValue = DEFAULT_BG_COLOR;
+                    }
                     int r = (pixelValue >> 16) & 0xFF;
                     int g = (pixelValue >> 8) & 0xFF;
                     int b = pixelValue & 0xFF;
@@ -76,7 +80,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         init_axis();
         init_axis_annotations();
         init_wave_reading();
-        // init_annotations();
+        init_annotations();
 
         synchronize_layers();
     }

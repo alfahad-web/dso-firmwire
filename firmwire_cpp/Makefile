@@ -14,7 +14,8 @@ SRCS = main.cpp \
        ui_layers/2_axis/axis.cpp \
        ui_layers/3_axis_annotations/axis_annotations.cpp \
        ui_layers/4_wave_reading/wave_reading.cpp \
-       ui_layers/5_annotations/annotations.cpp
+       ui_layers/5_annotations/annotations.cpp \
+       graphics/graphics.cpp
 
 # Default target
 all: $(TARGET)

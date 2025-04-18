@@ -13,7 +13,8 @@
 #define WAVE_READING_LAYER 4
 #define ANNOTATIONS_LAYER 5
 
-#define BG_COLOR 0x222425
+#define DEFAULT_BG_COLOR 0x1B231B
+#define SCREEN_BG_COLOR 0x222425
 #define GRAPHING_COLOR 0x2d4d64
 #define AXIS_COLOR 0xFFFFFF
 #define AXIS_ANNOTATIONS_COLOR 0xFFFFFF
@@ -24,7 +25,7 @@
 #define Y_UNITS 50
 
 #define GLOBAL_X_MARGIN 20
-#define GLOBAL_Y_MARGIN 40
+#define GLOBAL_Y_MARGIN 50
 
 extern int display_buffer[HEIGHT][WIDTH][6];
 extern std::queue<int> request_queue;
