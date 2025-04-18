@@ -5,6 +5,7 @@
 #include "ui_layers/1_graphing/graphing.h"
 #include "ui_layers/2_axis/axis.h"
 #include "ui_layers/3_axis_annotations/axis_annotations.h"
+#include "ui_layers/4_wave_reading/wave_reading.h"
 #include "global/global.h"
 #include <thread>
 using namespace std;
@@ -74,7 +75,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         init_graphing();
         init_axis();
         init_axis_annotations();
-        // init_wave_reading();
+        init_wave_reading();
         // init_annotations();
 
         synchronize_layers();
@@ -93,6 +94,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
         std::thread axisAnnotationsThread(continue_axis_annotations);
         axisAnnotationsThread.detach();
+
+        std::thread waveReadingThread(continue_wave_reading);
+        waveReadingThread.detach();
     }
 
     const char CLASS_NAME[] = "Sample Window Class";
