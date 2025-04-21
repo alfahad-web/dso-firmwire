@@ -35,7 +35,7 @@ void init_graphing() {
     Graph graph;
     graph.x_units = X_UNITS;
     graph.y_units = Y_UNITS;
-    graph.line_width = 2;
+    graph.line_width = LINE_WIDTH;
 
     update_graph(graph);
 }

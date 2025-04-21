@@ -27,6 +27,11 @@
 #define GLOBAL_X_MARGIN 20
 #define GLOBAL_Y_MARGIN 50
 
+#define LINE_WIDTH 2
+
+#define AXIS_ANNOTATIONS_WIDTH 5
+#define AXIS_ANNOTATIONS_HEIGHT 1
+
 extern int display_buffer[HEIGHT][WIDTH][6];
 extern std::queue<int> request_queue;
 

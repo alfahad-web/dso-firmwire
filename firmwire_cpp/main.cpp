@@ -9,6 +9,7 @@
 #include "ui_layers/5_annotations/annotations.h"
 #include "global/global.h"
 #include <thread>
+#include <iostream>
 using namespace std;
 
 
@@ -64,6 +65,10 @@ void synchronize_layers() {
 }
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
+    // AllocConsole();
+    // freopen("CONOUT$", "w", stdout);
+    // freopen("CONOUT$", "w", stderr);
+
     int windowWidth = WIDTH + 100;
     int windowHeight = HEIGHT + 100;
 

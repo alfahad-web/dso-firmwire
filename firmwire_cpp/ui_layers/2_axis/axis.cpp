@@ -32,7 +32,7 @@ void init_axis() {
     Axis axis;
     axis.x_units = X_UNITS;
     axis.y_units = Y_UNITS;
-    axis.line_width = 2;
+    axis.line_width = LINE_WIDTH;
 
     update_axis(axis);
 }

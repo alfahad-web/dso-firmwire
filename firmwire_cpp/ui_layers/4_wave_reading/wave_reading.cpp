@@ -79,7 +79,7 @@ void init_wave_reading() {
     wave_reading.display_y_unit_chB = 1000; // 1000 mV per minimum height
     wave_reading.y_offset_chA = 0;
     wave_reading.y_offset_chB = 0;
-    wave_reading.line_thickness = 2;
+    wave_reading.line_thickness = LINE_WIDTH;
     wave_reading.initial_position_chA = 0;
     wave_reading.initial_position_chB = 0;
 

@@ -65,9 +65,30 @@ map<string, string> sample_rate_units_map = {
     {"KSa", "KSa"}
 };
 
+void print_outline() {
+    for(int y = 0; y < screen_height; y++) {
+        for(int x = 0; x < screen_width; x++) {
+            int x_effective = x + global_x_offset;
+            int y_effective = y + global_y_offset;
+            if(y < LINE_WIDTH || x < LINE_WIDTH || y >= screen_height - LINE_WIDTH || x >= screen_width - LINE_WIDTH) {
+                display_buffer[y_effective - 1][x_effective - 1][ANNOTATIONS_LAYER] = AXIS_COLOR;
+                display_buffer[y_effective + 1][x_effective + 1][ANNOTATIONS_LAYER] = AXIS_COLOR;
+            }
+        }
+    }
+}
+
 void update_annotations(Annotations annotations) {
-    print_rounded_rectangle_bottom_left(GLOBAL_Y_MARGIN - 8, GLOBAL_X_MARGIN, LOGO_COLOR, 120, GLOBAL_Y_MARGIN - 12, 2, ANNOTATIONS_LAYER);
-    // print_dot(GLOBAL_Y_MARGIN, GLOBAL_X_MARGIN, 0xFFFFFF, 2, ANNOTATIONS_LAYER);
+    // logo
+    // print_rounded_rectangle_bottom_left(GLOBAL_Y_MARGIN - 8, GLOBAL_X_MARGIN, LOGO_COLOR, 120, GLOBAL_Y_MARGIN - 12, 2, ANNOTATIONS_LAYER);
+
+    // graph outline
+    print_outline();
+
+    // pointer for chA
+    print_pointer(2, HEIGHT / 2 - 5, WAVE_READING_COLOR_CH_A, ANNOTATIONS_LAYER);
+    // pointer for chB
+    print_pointer(2, HEIGHT / 2 - 5, WAVE_READING_COLOR_CH_B, ANNOTATIONS_LAYER);
 }
 
 void init_annotations() {
