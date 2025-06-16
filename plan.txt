@@ -1,4 +1,0 @@
-# Write a static display frame with the buffers.
-# update variables in each layer according to the input signals in separate threads.
-# inside main thread, continuously update the buffer with a small time delay. and trace the updates in it and put that changes
-    to the display.

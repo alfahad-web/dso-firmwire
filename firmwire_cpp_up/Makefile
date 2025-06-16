@@ -7,18 +7,7 @@ LDFLAGS = -mwindows -lgdi32 -static
 TARGET = main.exe
 
 # Source files
-SRCS = main.cpp \
-       global/global.cpp \
-       ui_layers/0_background/bg.cpp \
-       ui_layers/1_graphing/graphing.cpp \
-       ui_layers/2_axis/axis.cpp \
-       ui_layers/3_axis_annotations/axis_annotations.cpp \
-       ui_layers/4_wave_reading/wave_reading.cpp \
-       ui_layers/5_annotations/annotations.cpp \
-       graphics/graphics.cpp \
-       fonts/font.cpp \
-       ui_elements/ui_elem.cpp
-
+SRCS = main.cpp
 # Default target
 all: $(TARGET)
 
