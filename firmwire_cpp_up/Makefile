@@ -9,7 +9,9 @@ TARGET = main.exe
 # Source files
 SRCS = main.cpp \
        L0/l0.cpp \
-       master/master.cpp
+	   L1/l1.cpp \
+       master/master.cpp \
+	   graphics/graphics.cpp
 
 # Default target
 all: $(TARGET)

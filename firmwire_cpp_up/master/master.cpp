@@ -7,6 +7,7 @@
 #include "master.h"
 #include "../defs/types.h"
 #include "../L0/l0.h"
+#include "../L1/l1.h"
 
 using namespace std;
 
@@ -61,7 +62,7 @@ void synchronize_layers() {
 }
 
 void recalcBehaviorState(behaviorState& state) {
-    // TODO: implement
+    
 }
 
 void update_ui() {
@@ -95,7 +96,7 @@ void master() {
         recalcBehaviorState(state);
         
         make_ui_Layer0();
-        // make_ui_Layer1();
+        make_ui_Layer1();
         // make_ui_Layer2();
         // make_ui_Layer3();
         // make_ui_Layer4();

@@ -2,6 +2,7 @@
 #include <string.h>
 #include <math.h>
 #include "../defs/constants.h"
+#include "../defs/types.h"
 #include "graphics.h"
 #include "../fonts/font.h"
 #include <vector>
@@ -9,7 +10,7 @@
 #include <string>
 using namespace std;
 
-void print_dot(int y, int x, int color, int width, vector<vector<int>> &layer_buffer) {
+void print_dot(int y, int x, int color, int width, vector<vector<ll>> &layer_buffer) {
     for(int i = -width / 2; i <= width / 2; i++) {
         for(int j = -width / 2; j <= width / 2; j++) {
             if (y + i >= 0 && y + i < HEIGHT && x + j >= 0 && x + j < WIDTH) {
@@ -19,7 +20,7 @@ void print_dot(int y, int x, int color, int width, vector<vector<int>> &layer_bu
     }
 }
 
-void print_rectangle(int y, int x, int color, int width, int height, vector<vector<int>> &layer_buffer) {
+void print_rectangle(int y, int x, int color, int width, int height, vector<vector<ll>> &layer_buffer) {
     int half_width = width / 2;
     int half_height = height / 2;
     for(int i = -half_height; i <= half_height; i++) {
@@ -33,7 +34,7 @@ void print_rectangle(int y, int x, int color, int width, int height, vector<vect
     }
 }
 
-void print_rounded_rectangle_bottom_left(int y, int x, int color, int width, int height, int corner_radius, vector<vector<int>> &layer_buffer) {
+void print_rounded_rectangle_bottom_left(int y, int x, int color, int width, int height, int corner_radius, vector<vector<ll>> &layer_buffer) {
     for(int i = height - 1; i >= 0; i--) {
         for(int j = 0; j <= width; j++) {
             bool in_top_left_corner = (i < corner_radius && j < corner_radius) &&
@@ -53,7 +54,7 @@ void print_rounded_rectangle_bottom_left(int y, int x, int color, int width, int
     }   
 }
 
-void print_rounded_rectangle_top_left(int y, int x, int color, int width, int height, int corner_radius, vector<vector<int>> &layer_buffer) {
+void print_rounded_rectangle_top_left(int y, int x, int color, int width, int height, int corner_radius, vector<vector<ll>> &layer_buffer) {
     for(int i = 0; i < height; i++) {
         for(int j = 0; j < width; j++) {
             bool in_top_left_corner = (i < corner_radius && j < corner_radius) &&
@@ -86,7 +87,7 @@ bool is_point_in_polygon(int x, int y, const vector<pair<int, int>>& points) {
     return inside;
 }
 
-void print_polygon(const vector<pair<int, int>>& points, int color, vector<vector<int>> &layer_buffer) {
+void print_polygon(const vector<pair<int, int>>& points, int color, vector<vector<ll>> &layer_buffer) {
     if (points.size() < 3) return;
 
     int min_x = WIDTH, max_x = 0, min_y = HEIGHT, max_y = 0;
@@ -116,7 +117,7 @@ vector<pair<int, int>> transform_points(const vector<pair<int, int>>& points, in
     return transformed_points;
 }
 
-void print_pointer(int x, int y, int color, vector<vector<int>> &layer_buffer) {
+void print_pointer(int x, int y, int color, vector<vector<ll>> &layer_buffer) {
     int width = 15;
     int height = 10;
 
@@ -130,7 +131,7 @@ void print_pointer(int x, int y, int color, vector<vector<int>> &layer_buffer) {
     print_polygon(transform_points(pointer_points_custom, x, y), color, layer_buffer);
 }
 
-void safe_pixel_color(int x, int y, int color, vector<vector<int>> &layer_buffer) {
+void safe_pixel_color(int x, int y, int color, vector<vector<ll>> &layer_buffer) {
     if (x < 0 || x > WIDTH - GLOBAL_X_MARGIN * 2 || y < 0 || y > HEIGHT - GLOBAL_Y_MARGIN * 2) {
         throw runtime_error("Pixel is out of bounds");
     }

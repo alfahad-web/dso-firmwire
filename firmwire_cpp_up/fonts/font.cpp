@@ -4,6 +4,10 @@
 #include "stb_truetype.h"
 #include "embedded_font.h"
 #include "font.h"
+#include "../defs/types.h"
+#include "../defs/constants.h"
+#include "../graphics/graphics.h"
+#include "../master/master.h"
 using namespace std;
 
 vector<vector<bool>> renderCharacterToBitmap(char c, int fontSize) {
