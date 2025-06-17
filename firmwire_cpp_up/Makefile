@@ -7,7 +7,10 @@ LDFLAGS = -mwindows -lgdi32 -static
 TARGET = main.exe
 
 # Source files
-SRCS = main.cpp
+SRCS = main.cpp \
+       L0/l0.cpp \
+       master/master.cpp
+
 # Default target
 all: $(TARGET)
 

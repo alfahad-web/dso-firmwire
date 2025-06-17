@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
   <diagram name="Page-1" id="D7QICBaOenknfVmRmUUC">
-    <mxGraphModel dx="1698" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1684" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,10 +25,10 @@
           <mxGeometry x="-592" y="-476" width="450" height="291" as="geometry" />
         </mxCell>
         <mxCell id="CoY0uKXqRpmQlgdIEU-Q-33" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="-980" y="-490" width="260" height="310" as="geometry" />
+          <mxGeometry x="-1080" y="-480" width="260" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="CoY0uKXqRpmQlgdIEU-Q-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;BehaviorState Variables&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;1. v_div&lt;/p&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;2. t_div&lt;/p&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;3. wave_data&lt;/p&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;4.&amp;nbsp;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="-960" y="-480" width="220" height="290" as="geometry" />
+        <mxCell id="CoY0uKXqRpmQlgdIEU-Q-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;BehaviorState Variables&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;1. v_div&lt;/p&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;2. v_pos&lt;/p&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;3. t_div&lt;/p&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;4. t_pos&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="-1060" y="-470" width="220" height="290" as="geometry" />
         </mxCell>
         <mxCell id="4Uusxk8nQV4cGoE9MiT4-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="30" y="-479" width="330" height="269" as="geometry" />
@@ -36,7 +36,7 @@
         <mxCell id="4Uusxk8nQV4cGoE9MiT4-4" value="" style="whiteSpace=wrap;html=1;rounded=1;arcSize=5;shadow=0;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="10" y="1210" width="370" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="4Uusxk8nQV4cGoE9MiT4-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;make_ui(dispBuffL0):&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;put BG_COLOR in all the pixels of this layer.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
+        <mxCell id="4Uusxk8nQV4cGoE9MiT4-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;make_ui_L0(dispBuffL0):&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;put BG_COLOR in all the pixels of this layer.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="30" y="1221" width="330" height="269" as="geometry" />
         </mxCell>
         <mxCell id="4Uusxk8nQV4cGoE9MiT4-6" value="" style="whiteSpace=wrap;html=1;rounded=1;arcSize=5;shadow=0;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
@@ -47,9 +47,6 @@
         </mxCell>
         <mxCell id="4Uusxk8nQV4cGoE9MiT4-8" value="" style="whiteSpace=wrap;html=1;rounded=1;arcSize=5;shadow=0;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="10" y="790" width="370" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="4Uusxk8nQV4cGoE9MiT4-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Axis&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="401.87" y="988" width="330" height="59" as="geometry" />
         </mxCell>
         <mxCell id="4Uusxk8nQV4cGoE9MiT4-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=7;" parent="1" source="CoY0uKXqRpmQlgdIEU-Q-17" target="4Uusxk8nQV4cGoE9MiT4-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -124,19 +121,7 @@
         <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;L4_sidepanel&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="133.75" y="-520" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Graph&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="401.87" y="1048" width="330" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Axis Marking&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="400" y="931" width="330" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Frame Border&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="401.25" y="872" width="330" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Frame Border Marking&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="400" y="813" width="330" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;safePixelColor()&lt;/h1&gt;&lt;p&gt;use the constants defined for coordination and check if the pixel index is inside the allowed frame range, otherwise throw error.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=7;" parent="1" vertex="1">
+        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;safe_pixel_color()&lt;/h1&gt;&lt;p&gt;use the constants defined for coordination and check if the pixel index is inside the floor range, otherwise throw error.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="-537" y="342" width="340" height="58" as="geometry" />
         </mxCell>
         <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;colors&lt;/h1&gt;&lt;p&gt;use the constants defined for coordination and check if the pixel index is inside the allowed frame range, otherwise throw error.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=7;" parent="1" vertex="1">
@@ -145,22 +130,19 @@
         <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;screen sections&lt;/h1&gt;&lt;p&gt;use the constants defined for coordination and check if the pixel index is inside the allowed frame range, otherwise throw error.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="-537" y="30" width="340" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;local variables and constants&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;make_ui(dispBuffL1):&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;calculate and print graph from private and global data&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;calculate and print axis from private and global data&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;calculate and print axis marking from private and global data&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;calculate and print frame border from private and global data&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;calculate and print frame border marking from private and global data&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;** must use the safePixelColor() to write inside dispBuffL1&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
+        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;local variables and constants&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;make_ui_L1(dispBuffL1):&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;calculate and print graph from private and global data&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;calculate and print axis from private and global data&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;calculate and print axis marking from private and global data&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;calculate and print frame border from private and global data&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;calculate and print frame border marking from private and global data&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;** must use the safe_pixel_color() to write inside dispBuffL1&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="27" y="800" width="330" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;local variables and constants&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;make_ui(dispBuffL2):&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;calculate and print wave from private and global data&lt;/p&gt;&lt;p&gt;** must use the safePixelColor() to write inside dispBuffL2&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
+        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;local variables and constants&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;make_ui_L2(dispBuffL2):&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;calculate and print wave from private and global data&lt;/p&gt;&lt;p&gt;** must use the safe_pixel_color() to write inside dispBuffL2&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="27" y="460" width="330" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;local variables and constants&lt;/h1&gt;&lt;div&gt;upper_tray_origin&lt;/div&gt;&lt;div&gt;lower_tray_origin&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;** upper and lower two portion of the status tray, every part is relatively positioned**&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;walkVertical(&amp;amp;origin):&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;walkHorizontal():&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;make_ui(dispBuffL3):&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;calculate and print wave from private and global data&lt;/p&gt;&lt;p&gt;** must use the safePixelColor() to write inside dispBuffL3&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
+        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;local variables and constants&lt;/h1&gt;&lt;div&gt;upper_tray_origin&lt;/div&gt;&lt;div&gt;lower_tray_origin&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;** upper and lower two portion of the status tray, every part is relatively positioned**&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;walkVertical(&amp;amp;origin):&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;walkHorizontal():&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;make_ui_L3(dispBuffL3):&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;calculate and print wave from private and global data&lt;/p&gt;&lt;p&gt;** must use the safe_pixel_color() to write inside dispBuffL3&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="27" y="-39" width="330" height="259" as="geometry" />
         </mxCell>
-        <mxCell id="x_DFqZ_SWYjDULnQ6Q-3-20" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Obj1()&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Obj2()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Obj3()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;stack(obj1, leftMargin1, topMargin1)&lt;/div&gt;&lt;div&gt;stack...&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="600" y="-20" width="360" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="HlpkgcP61pGtncHFr5WV-1" value="master" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HlpkgcP61pGtncHFr5WV-1" value="master.cpp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-395" y="-520" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HlpkgcP61pGtncHFr5WV-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HlpkgcP61pGtncHFr5WV-7" target="CoY0uKXqRpmQlgdIEU-Q-17">
+        <mxCell id="HlpkgcP61pGtncHFr5WV-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HlpkgcP61pGtncHFr5WV-7" target="CoY0uKXqRpmQlgdIEU-Q-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-515" y="-660" as="sourcePoint" />
             <mxPoint x="-320" y="-640" as="targetPoint" />
@@ -170,14 +152,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HlpkgcP61pGtncHFr5WV-7" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;arcSize=5;shadow=1;labelBackgroundColor=none;fillColor=#09555B;fontColor=#EEEEEE;fontSize=7;" vertex="1" parent="1">
+        <mxCell id="HlpkgcP61pGtncHFr5WV-7" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;arcSize=5;shadow=1;labelBackgroundColor=none;fillColor=#09555B;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="-485" y="-735" width="240" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="HlpkgcP61pGtncHFr5WV-8" value="main.cpp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HlpkgcP61pGtncHFr5WV-8" value="main.cpp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-395" y="-765" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HlpkgcP61pGtncHFr5WV-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Define the necessary win32 codes and trigger the mainThread logic inside winMain&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
+        <mxCell id="HlpkgcP61pGtncHFr5WV-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Define the necessary win32 codes and trigger the mainThread logic inside winMain&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-455" y="-727" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qPpU3Tpyx-AcaDkKgEL6-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="-1080" y="-170" width="260" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="qPpU3Tpyx-AcaDkKgEL6-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Global Constants in library&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="-1060" y="-160" width="220" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="qPpU3Tpyx-AcaDkKgEL6-4" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="-1080" y="140" width="260" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="qPpU3Tpyx-AcaDkKgEL6-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Local filewise vars &amp;amp; consts&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;1. wave_data (L2_wave)&lt;/p&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;2.&amp;nbsp;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#EEEEEE;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="-1060" y="150" width="220" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="qPpU3Tpyx-AcaDkKgEL6-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;All Data&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1000" y="-520" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
